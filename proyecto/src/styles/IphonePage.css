@@ -1,0 +1,87 @@
+/* ===== IPHONE PAGE ===== */
+.iphone-page { background: #fff; }
+
+/* Hero */
+.iphone-hero {
+  padding: 80px 40px 60px;
+  text-align: center;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iphone-hero h1 { font-size: 56px; font-weight: 700; margin-bottom: 8px; }
+.iphone-hero h2 { font-size: 26px; font-weight: 400; margin-bottom: 12px; }
+.iphone-hero p  { font-size: 17px; margin-bottom: 28px; }
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.hero-emoji { font-size: 100px; margin-top: 8px; }
+
+/* Modelos */
+.iphone-models {
+  padding: 80px 40px;
+  background: #f5f5f7;
+}
+
+.models-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.model-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  border: 2px solid transparent;
+}
+.model-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.model-card.selected { border-color: #0071e3; }
+
+.model-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #ff3b30;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.model-emoji  { font-size: 72px; margin-bottom: 12px; }
+.model-card h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+.model-price  { color: #6e6e73; font-size: 14px; margin-bottom: 16px; }
+
+/* Características */
+.iphone-features { padding: 80px 40px; background: #fff; }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.feature-card { text-align: center; padding: 24px 16px; }
+.feature-icon { font-size: 40px; display: block; margin-bottom: 12px; }
+.feature-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+.feature-card p  { font-size: 14px; color: #6e6e73; line-height: 1.5; }
