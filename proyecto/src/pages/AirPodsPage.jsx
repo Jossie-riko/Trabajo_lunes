@@ -10,7 +10,7 @@ const airPodsData = {
   products: [
     {
       id: 1,
-      name: "AirPods Pro (2.ª generación)",
+      name: "AirPods PRO (2.ª generación)",
       tag: "Nuevo",
       price: "$1.599.000",
       desc: "Cancelación activa de ruido. Audio adaptable. Chip H2.",

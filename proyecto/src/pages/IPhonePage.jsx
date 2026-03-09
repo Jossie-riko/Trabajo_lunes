@@ -3,7 +3,7 @@ import "../styles/IPhonePage.css";
 
 const iPhoneData = {
   hero: {
-    title: "iPhone 16 Pro",
+    title: "IPHONE 16 Pro",
     subtitle: "El poder de la IA. En tus manos.",
     description: "Cámara de 48 MP con zoom óptico 5x. Chip A18 Pro. Titanio.",
     bgColor: "#1d1d1f",

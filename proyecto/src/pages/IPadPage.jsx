@@ -106,7 +106,7 @@ function IPadPage() {
                 <span className="acc-icon">{acc.icon}</span>
                 <h3>{acc.name}</h3>
                 <p>{acc.price}</p>
-                <button className="btn-link small">Comprar ›</button>
+                <button className="btn-link small">COMPRAR ›</button>
               </div>
             ))}
           </div>
